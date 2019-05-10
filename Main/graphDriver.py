@@ -16,7 +16,7 @@ def graphdriver ():
             company, market = input("Enter Company and Market Name: ").split()
             plot_volume(company, market)
         elif (command == "help"):
-            print("(help menu)")
+            print("Multiple inputs must be space separated.\nCommand         Description\n-------         -----------\nprice           opening and closing prices over time\nperchg          percent change over time\nnetchg          net change over time\nvolume          volume over time")   
         else:
             print("Invalid input. Enter 'help' for more list of commands.")
         command = input("Enter graph command: ")
