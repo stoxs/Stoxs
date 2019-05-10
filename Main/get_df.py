@@ -21,7 +21,7 @@ def getcompanytable (companySymbol, marketSymbol, startDate, endDate):
   cursor.execute(sqll)
   result = cursor.fetchall()
   p = pd.DataFrame(data = result)
-  p.columns = ["Date", "Open", "High", "Low", "Close", "Net_Chg", "%_Chg", "Volume"]
+  p.columns = ["Date", "Open", "High", "Low", "Close", "Net_Chg", "Per_Chg", "Volume"]
 
   return p
 
