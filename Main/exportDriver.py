@@ -11,7 +11,7 @@ def exportdriver ():
             company, market, start, end = input("Enter Company Symbol, Market Name, Start Date and End Date: ").split()
             export_csv(company, market, start, end)
         elif (command == "help"):
-            print("(export command list)")
+            print("Multiple inputs must be space separated.\nCommand         Description\n-------         -----------\nall             export data for all dates\nrange           export data for given range of dates\nback            return to main menu")
         else:
             print("Invalid input. Enter 'help' for more list of commands.")
         command = input("Enter export command: ")
