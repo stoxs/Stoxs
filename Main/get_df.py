@@ -32,5 +32,3 @@ def export_csv(companySymbol, marketSymbol, startDate, endDate):
     df.to_csv(path + marketSymbol + '-' + companySymbol + '.csv', index=False)
 
 
-print(getcompanytable('A', 'NYSE', '2019-04-01', '2019-05-08'))
-export_csv('A', 'NYSE', '2019-04-01', '2019-05-08')
