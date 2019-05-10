@@ -15,7 +15,7 @@ def graphdriver ():
          elif (command == "volume"):
             company, market = input("Enter Company and Market Name: ").split()
             plot_volume(company, market)
-         elif (command == "volume"):
+         elif (command == "help"):
             print("(help menu)")
         else:
             print("Invalid input. Enter 'help' for more list of commands.")
