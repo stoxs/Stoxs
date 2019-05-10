@@ -16,8 +16,8 @@ Scrapes market data from WSJ, exporting to .csv, graphing.
 
 **Python Program**
 - [x] Create main driver in Python
-- [ ] Display table/query database
-- [ ] Export .csv from databases
+- [x] Display table/query database
+- [x] Export .csv from databases
 - [ ] Create graphs from dataframes
 
 **ReactJS Web App**
