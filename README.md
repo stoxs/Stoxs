@@ -12,6 +12,7 @@ Scrapes market data from WSJ, exporting to .csv, graphing.
 **MySQL Databases**
 - [x] Create and structure MySQ databases (see Database)
 - [x] Import .csv into MySQL databases
+- [ ] Deploy to AWS/cloud hosting service
 
 **Python Program**
 - [x] Create main driver in Python
