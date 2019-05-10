@@ -1,6 +1,6 @@
 # Stoxs
 
-Scrapes market data from WSJ, export .csv, graphs. 
+Scrapes market data from WSJ, exporting to .csv, graphing. 
 
 # To-Do
 - [x] Scrape closing table data from WSJ into Pandas dataframes
