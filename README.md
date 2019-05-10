@@ -24,4 +24,9 @@ Scrapes market data from WSJ, exporting to .csv, graphing.
 - [x] Create bare bone structure for React front-end
 - [x] Query MySQL
 - [ ] Link back-end to front-end
+- [ ] Display graphs/tables
+- [ ] Improve UI
+
+**Analysis**
+- [ ] Run analysis on data 
 
