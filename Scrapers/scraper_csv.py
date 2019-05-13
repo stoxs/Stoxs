@@ -10,6 +10,7 @@ url_page = ['http://www.barrons.com/mdc/public/page/9_3024-AMEX.html?mod=bol_top
             'http://www.barrons.com/mdc/public/page/9_3024-Nasdaq.html?mod=bol_topnav_9_3024',
             'http://www.barrons.com/mdc/public/page/9_3024-SCAP.html?mod=bol_topnav_9_3024']
 
+
 big_data = []
 
 for element in url_page:
