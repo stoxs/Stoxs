@@ -1,0 +1,24 @@
+DATABASE OVERVIEW:
+
+Databases:
+
+AMEX (AMERICAN STOCK EXCHANGE):
+-> COMPANY: Table includes company names and comapny symbols (PRIMARY KEY)
+-> 121 other tables, one for each company in the market; table name is company symbol ending with '0'
+
+NYSE (NEW YORK STOCK EXCHANGE):
+-> COMPANY: Table includes company names and comapny symbols (PRIMARY KEY)
+-> 2021 other tables, one for each company in the market; table name is company symbol ending with '0'
+
+NASDAQ_GLOBAL (NASDAQ GLOBAL MARKETS):
+-> COMPANY: Table includes company names and comapny symbols (PRIMARY KEY)
+-> 1826 other tables, one for each company in the market; table name is company symbol ending with '0'
+
+NASDAQ_CAPITAL (NASDAQ_CAPITAL MARKETS):
+-> COMPANY: Table includes company names and comapny symbols (PRIMARY KEY)
+-> 846 other tables, one for each company in the market; table name is company symbol ending with '0'
+
+
+Each company's table has values 
+(date, openp, high, low, closep, netchg, perchg, volume, weekhigh, weeklow, divd, yield, pe, ytd)
+Primary key: date DATE
