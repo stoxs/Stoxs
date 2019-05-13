@@ -1,5 +1,7 @@
 import csv
 
+# counts the number of company's within the csv
+
 count = 0
 
 filepath = '/Users/user1/Desktop/WSJ/\\17_4_2019\\AMEX.csv'
