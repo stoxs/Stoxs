@@ -6,10 +6,10 @@ import datetime
 
 path = input("Enter folder path: ")
 
-url_page = ['http://www.wsj.com/mdc/public/page/2_3024-AMEX.html?mod=topnav_2_3002',
-            'http://www.wsj.com/mdc/public/page/2_3024-NYSE.html?mod=topnav_2_3024',
-            'http://www.wsj.com/mdc/public/page/2_3024-Nasdaq.html',
-            'http://www.wsj.com/mdc/public/page/2_3024-SCAP.html?mod=topnav_2_3002']
+url_page = ['http://www.barrons.com/mdc/public/page/9_3024-AMEX.html?mod=bol_topnav_9_3024',
+            'http://www.barrons.com/mdc/public/page/9_3024-NYSE.html?mod=bol_topnav_9_3024',
+            'http://www.barrons.com/mdc/public/page/9_3024-Nasdaq.html?mod=bol_topnav_9_3024',
+            'http://www.barrons.com/mdc/public/page/9_3024-SCAP.html?mod=bol_topnav_9_3024']
 
 
 big_data = []
